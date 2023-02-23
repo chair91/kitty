@@ -12,7 +12,7 @@
         android:icon="@mipmap/ic_launcher">
        <provider
            android:name="androidx.core.content.FileProvider"
-           android:authorities="com.spacelab.kitty.fileprovider"
+           android:authorities="com.chai.ktft.fileprovider"
            android:exported="false"
            android:grantUriPermissions="true">
            <meta-data
