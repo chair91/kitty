@@ -15,7 +15,7 @@ void main() async {
       supportedLocales: const [Locale('en'), Locale('uk')],
       path: 'assets/translations',
       fallbackLocale: const Locale('en'),
-      assetLoader: const CodegenLoader(),
+      //assetLoader: const CodegenLoader(),
       child: BlocProvider(
         create: (context) => UserBloc()..add(CallLatestUserEvent()),
         child: const KittyApp(),

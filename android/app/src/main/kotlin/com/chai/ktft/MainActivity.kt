@@ -1,4 +1,4 @@
-package com.spacelab.kitty
+package com.chai.ktft
 
 import androidx.annotation.NonNull
 import io.flutter.embedding.android.FlutterFragmentActivity

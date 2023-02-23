@@ -1,4 +1,4 @@
-name: kitty
+name: ktft
 description: expenses app
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -32,7 +32,6 @@ dependencies:
   open_filex: ^4.3.2
   image_picker: ^0.8.6+1
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -41,6 +40,7 @@ dev_dependencies:
   build_runner: ^2.3.3
   freezed: ^2.3.2
   json_serializable: ^6.5.4
+  change_app_package_name: ^1.0.0
 
 flutter:
 
